@@ -3,11 +3,12 @@ const routes = [
     index: true,
     label: 'Naresh Gujjari',
     path: '/',
-  },
+  }, 
+  /* 
   {
     label: 'About',
     path: '/about',
-  },
+  }, */
   {
     label: 'Resume',
     path: '/resume',

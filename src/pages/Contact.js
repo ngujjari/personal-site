@@ -17,8 +17,11 @@ const Contact = () => (
         </div>
       </header>
       <div className="email-at">
-        <p>Feel free to get in touch. You can email me at: </p>
-        <EmailLink />
+        <p>Feel free to get in touch. </p>
+        <p>Email: <EmailLink /></p>
+      </div>
+      <div className="email-at">
+        <p>Phone:</p><a href="tel:+15089250638">508-925-0638</a>
       </div>
       <ContactIcons />
     </article>

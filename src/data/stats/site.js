@@ -36,13 +36,14 @@ const data = [
   {
     label: 'Last updated at',
     key: 'pushed_at',
+    value: 'MAY 27, 2023',
     link: 'https://github.com/ngujjari/personal-site/commits',
     format: (x) => dayjs(x).format('MMMM DD, YYYY'),
   },
   {
     // TODO update this with a pre-commit hook
     /* find . | grep ".js" | grep -vE ".min.js|node_modules|.git|.json" |
-    xargs -I file cat file | wc -l */
+xargs -I file cat file | wc -l */
     label: 'Lines of Javascript powering this website',
     value: '2150',
     link: 'https://github.com/ngujjari/personal-site/graphs/contributors',

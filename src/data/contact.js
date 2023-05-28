@@ -14,7 +14,7 @@ const data = [
     icon: faGithub,
   },
   {
-    link: 'https://facebook.com/d',
+    link: 'https://www.facebook.com/gujjari.naresh',
     label: 'Facebook',
     icon: faFacebookF,
   },
